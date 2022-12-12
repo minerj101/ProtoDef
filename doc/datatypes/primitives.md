@@ -13,8 +13,8 @@ Arguments: encoding
 Represents a null terminated string. Similar to strings in C.
 Assumes UTF-8 encoding by default
 
-Example:
-Example: A string length prefixed by a varint.
+#### Example:
+ A string length prefixed by a varint.
 ```json
 [
   "cstring", { "encoding": "utf-16" }
